@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSP Project</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(0,0,0,0.5);
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            color: #4facfe;
+            background-color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e0f7ff;
+            transform: translateY(-3px);
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin: 3rem 0;
+        }
+
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            width: 200px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Traveling Salesman Project</h1>
+        <p>Explore how we solve the classic TSP problem using algorithms, data visualization, and optimization techniques.</p>
+        <a href="#features" class="btn">Discover More</a>
+    </header>
+
+    <section id="features" class="features">
+        <div class="feature">
+            <h2>Algorithm Design</h2>
+            <p>Learn about greedy, dynamic programming, and genetic algorithms applied to TSP.</p>
+        </div>
+        <div class="feature">
+            <h2>Visualization</h2>
+            <p>See how cities and paths are plotted and optimized in real time with interactive graphs.</p>
+        </div>
+        <div class="feature">
+            <h2>Optimization</h2>
+            <p>Explore methods to minimize travel distance and improve computational efficiency.</p>
+        </div>
+    </section>
+</body>
+</html>
